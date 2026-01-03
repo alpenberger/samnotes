@@ -1,0 +1,14 @@
+- url: /samnotes/assets/images/gallery/sevilla-1.jpg
+  image_path: /samnotes/assets/images/gallery/sevilla-1.jpg
+  alt: "Sevilla"
+  title: "Sevilla"
+
+- url: /samnotes/assets/images/gallery/sevilla-2.jpg
+  image_path: /samnotes/assets/images/gallery/sevilla-2.jpg
+  alt: "Sevilla sokakları"
+  title: "Sevilla Sokakları"
+
+- url: /samnotes/assets/images/gallery/sevilla-3.jpg
+  image_path: /samnotes/assets/images/gallery/sevilla-3.jpg
+  alt: "Granada"
+  title: "Granada"
