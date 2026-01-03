@@ -1,3 +1,11 @@
+title: Sam Notes
+description: Kişisel notlar
+url: "https://alpenberger.github.io"
+baseurl: "/samnotes"
+
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
