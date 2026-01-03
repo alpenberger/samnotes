@@ -3,6 +3,21 @@ description: Kişisel notlar
 url: "https://alpenberger.github.io"
 baseurl: "/samnotes"
 
+# Owner/author information
+author_ids: [ozan,  htss, ismail]
+authors:
+  ozan:
+    name:           Ozan Keysan
+    avatar:         ozan.jpg
+    bio:            "ODTÜ"
+    # Social networking links are used in author-bio sidebar. Update and remove as you like.
+    home:     "http://ozan.keysan.me"
+    twitter:  "asuya_tuyolar"
+    facebook:
+    github:         "ozank"
+    linkedin:       "okeysan"
+
+    
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
