@@ -1,64 +1,91 @@
-# Site settings
-title: Sam Notes
-description: Kişisel notlar
-url: "https://alpenberger.github.io"
-baseurl: "/samnotes"
+title:            Asu'ya Tüyolar
+tagline:          Araştırmacılar için bilgisayar, internet tüyoları
+description:      Araştırmacılar için bilgisayar, internet tüyoları
+#Comment out url when working locally to resolve base urls correctly
+#url: http://ozank.github.io/asuyatuyolar
+url: http://asuyatuyolar.org
 
-# Theme
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: default
+# Owner/author information
+author_ids: [ozan,  htss, ismail]
+authors:
+  ozan:
+    name:           Ozan Keysan
+    avatar:         ozan.jpg
+    bio:            "ODTÜ"
+    # Social networking links are used in author-bio sidebar. Update and remove as you like.
+    home:     "http://ozan.keysan.me"
+    twitter:  "asuya_tuyolar"
+    facebook:
+    github:         "ozank"
+    linkedin:       "okeysan"
+    # For Google Authorship https://plus.google.com/authorship
+    google_plus:  101596327621803798644
+  htss:
+    name:           H. Tuğça Şener Şatır
+    avatar:         htss.jpg
+    bio:            "Queen Belfast Üniversitesi"
+    home:     "https://plus.google.com/+HTugcaSenerSatir/posts"
+    twitter:
+    facebook:
+    github:
+    linkedin:
+    # For Google Authorship https://plus.google.com/authorship
+    google_plus:
+  ismail:
+    name:           İsmail Arı
+    avatar:         ismailari.jpg
+    bio:            ""
+    home:     "http://ismailari.com"
+    twitter:  "ismailari"
+    facebook:
+    github:
+    linkedin:       "ismailari"
+    # For Google Authorship https://plus.google.com/authorship
+    google_plus:
 
-# Plugins (GitHub Pages uyumlu)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-42934492-1
+google_verify:      dN8jR-zjlsGtpJb7IMPjo82FnvijPWDRhejtHnQXr2U
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
 
-# Pagination
-paginate: 5
-paginate_path: /samnotes/page:num/
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: ETİKETLER
+    url: /tag
+  - title: ARŞİV
+    url: /articles
+  - title: Bağlantılar
+    url: /links
+  - title: Hakkinda
+    url: /about
+  #- title: Made Mistakes
+  #  url: http://mademistakes.com
+  #  external: true
 
-# Markdown
-markdown: kramdown
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Istanbul
+future:      true
+pygments:    true
+markdown:    kramdown
 
-# Include pages
-include:
-  - _pages
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:year/:month/:title.html
 
-# Author
-author:
-  name: "Sam"
-  bio: "Kişisel notlar"
-  avatar: "/assets/images/bio-photo.jpg"
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
 
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
 
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-# Archives
-category_archive:
-  type: liquid
-  path: /samnotes/categories/
-
-tag_archive:
-  type: liquid
-  path: /samnotes/tags/
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less"]
