@@ -94,6 +94,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
+copyright: "© 2026 Sam Notes · Made with ❤️"
 
 defaults:
   # _posts
